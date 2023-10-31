@@ -2,6 +2,15 @@ body {
   font-family: verdana;
 }
 
+nav {
+  background-color: white;
+  transition: all 1s;
+}
+nav:hover {
+  background-color: dodgerBlue;
+  transition: all 1s;
+}
+
 nav a.selected {
   font-size: 1.5rem;
 }
