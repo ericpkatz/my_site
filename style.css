@@ -14,3 +14,19 @@ nav:hover {
 nav a.selected {
   font-size: 1.5rem;
 }
+
+#splash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+  border: solid 1px black;
+  height: calc(100vh - 6rem);
+  background-image: url(moon_landing.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align:center;
+  text-shadow: 1rem 1rem 5px black;
+}
